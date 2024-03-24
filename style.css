@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Start of Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -53,12 +55,26 @@ button.normal {
     cursor: pointer;
     border: none;
     outline: none;
-    transition: 0.02s;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
 }
 
 body {
     width: 100%;
 }
+
+/* End of Global */
 
 /* Header Start */
 
@@ -310,6 +326,150 @@ justify-content: center;
     background: #06D6A0;
     color: #fff;
 }
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/bann-10.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2{
+    background-image: url("img/bann-11.jpg");
+}
+
+#sm-banner h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #06D6A0;
+    border: 1px solid #06D6A0;
+}
+
+#bann-tatu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#bann-tatu .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/coder.jpeg");
+    min-width: 30px;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#bann-tatu .banner-box2{
+    background-image: url("img/stats.jpg");
+}
+
+#bann-tatu .banner-box3{
+    background-image: url("img/blog.jpeg");
+}
+
+#bann-tatu h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#bann-tatu h3 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+/*  background-image: url("img/newsletter.jpg");
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: #118AB2;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #06D6A0;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 900;
+    color: #ef476e;
+}
+
+#newsletter span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #073B4C;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #06D6A0;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
 
 /*Shop Page*/
 
